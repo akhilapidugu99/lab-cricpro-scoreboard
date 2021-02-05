@@ -4,12 +4,12 @@
 /* change the font family and spacing as per your project font */
 
 
+
 header {
    display: block;
    float: right;
 
 }
-
 
 body {
    background-image: url('./assets/background-image1.png');
@@ -20,6 +20,9 @@ body {
 
 .cup {
 
+   margin-top: 50px;
+
+   margin-left: 100px;
    font-family: 'Nunito Sans', sans-serif;
    font-size: 40px;
    text-shadow: 3px 3px 3px rgb(124, 122, 122);
@@ -27,7 +30,7 @@ body {
 
 .scorecard {
    display: flex;
-
+   margin-left: 100px;
    font-family: 'Nunito Sans', sans-serif;
    font-size: 20px;
    color: grey;
@@ -45,6 +48,7 @@ table {
    background-color: white;
    border-color: gray;
    padding: 1px;
+   box-shadow: 5px 10px 18px #888888;
 
 
 }
@@ -70,6 +74,9 @@ th {
 
 .status {
    color: gray;
+   font-family: 'Nunito Sans', sans-serif;
+   font-size: small;
+
 }
 
 #middle {
